@@ -17,5 +17,6 @@
                        "dest":  "server.js"
                    }
                ],
-    "name":  "quickblog-server"
+    "name":  "groovblog-server"
 }
+
