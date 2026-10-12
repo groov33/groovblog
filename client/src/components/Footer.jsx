@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div>
             <img src={assets.logo} alt="logo" className='w-32 sm:w-44'/>
-            <p className='max-w-[410px] mt-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum unde quaerat eveniet cumque accusamus atque qui error quo enim fugiat?</p>
+            <p className='max-w-[410px] mt-6'>A modern AI-assisted engineering and technology publication exploring full-stack systems, distributed computing, and artificial intelligence.</p>
         </div>
 
         <div className='flex flex-wrap justify-between w-full md:w-[45%] gap-5'>
@@ -28,7 +28,7 @@ const Footer = () => {
 
 
       </div>
-      <p className='py-4 text-center text-sm md:text-base text-gray-500/80'>Copyright {new Date().getFullYear()} &copy; Ayush</p>
+      <p className='py-4 text-center text-sm md:text-base text-gray-500/80'>Designed & Developed by <a href="https://github.com/groov33" target="_blank" rel="noreferrer" className="underline hover:text-gray-900 transition">Ayush Pandey</a> · AI-Powered Blogging Platform</p>
     </div>
   )
 }
